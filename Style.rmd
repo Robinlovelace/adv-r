@@ -15,27 +15,33 @@ One package that can make adhering to a style guide easier is `formatR`, by Yihu
 
 ### File names
 
-File names should end in `.r` and be meaningful.
+File names should end in `.R` and be meaningful.
 
     # Good
-    explore-diamonds.r
-    hadley-wickham-hw-1.r
+    explore-diamonds.R
+    hadley-wickham-hw-1.R
     # Bad
-    foo.r
+    foo.R
     my-homework.R
 
 ### Identifiers
 
 "There are only two hard things in Computer Science: cache invalidation and naming things." -- Phil Karlton
 
-Variable and function names should be lowercase. Use `_` to separate words within a name. Generally, variable names should be nouns and function names should be verbs. Strive for concise but meaningful names (this is not easy!)
+Variable and function names should generally begin with lowercase characters. There are three
+commonly used ways to separate words within a name:
+"gooseneck" notation (`final_output`), "ant" notation (`final.output`) or 
+[camelBack](http://en.wikipedia.org/wiki/CamelCase) (finalOutput). 
+John Krushke recommends the latter, although the final choice is a matter of preference and readability.
+Generally, variable names should be nouns and function names should be verbs. 
+Strive for concise but meaningful names (this is not easy!)
 
     # Good
+    dayOne
     day_one
     day_1
     # Bad
     first_day_of_the_month
-    DayOne
     dayone
     djm1
 
