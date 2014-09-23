@@ -63,7 +63,6 @@ file.copy("book/advanced-r.tex", "book/tex/", recursive = TRUE)
 file.copy("book/krantz.cls", "book/tex/", recursive = TRUE)
 file.copy("diagrams/", "book/tex/", recursive = TRUE)
 file.copy("screenshots/", "book/tex/", recursive = TRUE)
-file.copy("figures", "book/tex/", recursive = TRUE)
 
 # Build tex file ---------------------------------------------------------------
 # (build with Rstudio to find/diagnose errors)
